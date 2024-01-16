@@ -1,0 +1,287 @@
+#navbar{
+           
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8bd9fe;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Set a high z-index to ensure it stays on top of other elements */  
+}
+#rightnavbar{
+    display: flex;
+    gap: 20px;
+    font-size: small;   
+}
+#backimg{
+    height: 800px;
+    width: 100%;
+}
+#rightnavbar h1:hover{
+    background-color: #8bd9fe;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    font-family: elephant;  
+}
+#overlay-text{
+    position: absolute;
+    top: 40%;
+    color: black;
+    font-size: 30px;
+    left: 13%;
+}
+button{
+    border: none;
+    font-size: 22px;
+    padding: 16px 50px;
+    color: black;
+    background-color: brown;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: brown;
+}
+#About{
+   
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    justify-content:space-around;
+    
+}
+
+#m-about{
+    text-decoration-line: underline ;
+    font-size: 2rem;
+    text-align: center;
+    color: #8bd9fe;
+    text-decoration-thickness: 6px;
+}
+
+#avtar{
+    height: 500px;
+    width: 200%;  
+}
+
+#text{
+    
+    width:50%;
+    padding-left: 100px;
+}
+
+#para-about{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#skill{
+    text-decoration-line: underline ;
+    font-size: 2rem;
+    text-align: center;
+    color: #8bd9fe;
+    text-decoration-thickness: 6px;
+    margin-top: 200px;
+}
+
+#img-skill{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+#img-skill > div > img{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 20px;
+    
+}
+
+#img-skill > div > p{
+   
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#Tool{
+     text-decoration-line: underline ;
+    font-size: 2rem;
+    text-align: center;
+    color: #8bd9fe;
+    text-decoration-thickness: 6px;
+    margin-top: 150px;
+}
+
+#Tool-logo{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+#Tool-logo > div > img{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 20px;
+    
+}
+
+#Tool-logo > div > p{
+   
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#contact{
+    text-decoration-line: underline ;
+    font-size: 2rem;
+    text-align: center;
+    color: #8bd9fe;
+    text-decoration-thickness: 6px;
+    margin-top: 100px;
+
+}
+
+#detail > a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+#gmail,#phone,#linkdin,#github{
+    display: flex;
+    gap: 15px;
+}
+
+#gmail,#phone,#linkdin,#github > Div > a{
+    
+    font-size: 20px;
+    font-family: '';
+    font-weight: 700;
+     
+}
+#gmail > Div > a:hover{
+    
+    font-size: 20px;
+    font-family: 'elephant';
+    font-weight: 700;
+     
+}
+#phone > Div > a:hover{
+    
+    font-size: 20px;
+    font-family: 'elephant';
+    font-weight: 700;
+     
+}
+#linkdin > Div > a:hover{
+    
+    font-size: 20px;
+    font-family: 'elephant';
+    font-weight: 700;
+     
+}
+#github > Div > a:hover{
+    
+    font-size: 20px;
+    font-family: 'elephant';
+    font-weight: 700;
+     
+}
+
+
+#getin{
+    font-size: 30px;
+    font-family: 'elephant';
+    font-weight: 400;
+    margin-left: 100px;
+    
+}
+
+#main-contact{
+    margin-left: 100px;
+    margin-bottom: 1100px;
+    
+}
+#contact-var{
+    height: 600px;
+}
+
+#footer{
+    text-align: center;
+    background-color: #8bd9fe;
+    height: 40px;
+    padding: 20px;
+}
+.arrow a{
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ font-size: 18px;
+ background-color:#8bd9fe;
+ padding: 9px 12px;
+ border-radius: 10px;
+
+
+}
+
+
+/* Media Query for Mobile View */
+
+@media only screen and (max-width: 600px) {
+#navbar {
+ height: 80px;
+}
+
+#rightnavbar {
+ gap: 10px;
+ font-size: x-small;
+}
+
+#backimg {
+ height: 600px;
+}
+
+#img-skill > div > img,
+#Tool-logo > div > img {
+ height: 80px;
+}
+
+#Tool-logo > div > p,
+#img-skill > div > p {
+ font-size: 18px;
+}
+
+#getin,
+#main-contact {
+ margin-left: 10px;
+}
+
+#footer {
+ padding: 10px;
+}
+}
